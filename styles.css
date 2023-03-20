@@ -281,3 +281,101 @@ hr {
     margin: 0 auto;
     margin-bottom: 30px;
 }
+
+/* PRODUCT DETAIL SECTION */
+
+.main-product-detail {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+
+.product-detail--batata-logo {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    background-image: url('./icons/batata.svg');
+    top: -10px;
+    left: calc(50% - 20px);
+}
+
+.main-product-detail--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.main-product-detail--title h2 {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    color: var(--white);
+    font-weight: bold;
+    line-height: 2.6rem;
+}
+
+.main-product-detail--title p {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.product-detail--card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--warm-black-1);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product-detail--icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.clock {
+    background-image: url('./icons/clock.svg');
+}
+
+.eye {
+    background-image: url('./icons/eye.svg');
+}
+
+.dollar-sign {
+    background-image: url('./icons/dollar-sign.svg');
+}
+
+.check {
+    background-image: url('./icons/check-circle.svg');
+}
+
+.product-detail--card .product-card--title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--white);
+}
+
+.product-detail--card .product-card--body {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
