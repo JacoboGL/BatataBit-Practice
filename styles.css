@@ -379,3 +379,143 @@ hr {
     line-height: 1.8rem;
     color: #808080;
 }
+
+/* IMAGE SECTION */
+
+.image-section--container {
+    width: 100%;
+    height: 387px;  
+    background-image: url('./img/bitcoinbaby.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image-section--container p {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;    
+    text-align: center;
+    padding-top: 70px;
+    color: var(--white);
+}
+
+/* PLANS CARDS SECTION */
+
+.plans-cards {
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+
+.plans-cards--text {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.plans-cards--text h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    margin-bottom: 25px;
+}
+
+.plans-cards--text p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+    margin-bottom: 30px;
+}
+
+.plans-cards--recommended {
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+    background-color: var(--bitcoin-orange);
+    border-radius: 6px;
+    position: relative;
+}
+
+.plans-cards--recommended p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 8px;
+    color: var(--white);
+}
+
+.plans-cards--container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: var(--off-white);
+}
+
+.plans-card {
+    width: 220px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: -15px;
+    margin-bottom: 30px;
+    background-color: var(--white);
+    border-radius: 8px;
+}
+
+.plans-card h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.plans-card--price {
+    font-size: 5.2rem;
+    font-weight: 700;
+}
+
+.plans-card--price span {
+    font-size: 1.4rem;
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+.plans-card--description {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+    color: #808080;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.plans-cards--container button {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 3px solid var(--bitcoin-orange);
+    background-color: var(--off-white);
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.plans-card--button p {
+    margin-left: -8px;
+}
+
+.plans-card--button span {
+    display: inline-block;
+    position: absolute;
+    margin-left: 5px;
+    width: 15px;
+    height: 15px;
+    background-image: url('./icons/orange-right-arrow.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+
+
