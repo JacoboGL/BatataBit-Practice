@@ -403,9 +403,8 @@ hr {
 /* PLANS CARDS SECTION */
 
 .plans-cards {
-    width: 100%;
-    height: auto;
     background-color: var(--off-white);
+    display: flex;
 }
 
 .plans-cards--text {
@@ -425,7 +424,7 @@ hr {
     font-weight: 500;
     line-height: 1.8rem;
     color: #808080;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .plans-cards--recommended {
@@ -435,13 +434,14 @@ hr {
     background-color: var(--bitcoin-orange);
     border-radius: 6px;
     position: relative;
+    margin-top: -25px;
 }
 
 .plans-cards--recommended p {
     font-size: 1.2rem;
     font-weight: 700;
     text-align: center;
-    padding-top: 8px;
+    padding-top: 4px;
     color: var(--white);
 }
 
@@ -453,14 +453,17 @@ hr {
 }
 
 .plans-card {
-    width: 220px;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
     text-align: center;
     margin: 0 auto;
     padding: 15px;
     margin-top: -15px;
     margin-bottom: 30px;
     background-color: var(--white);
-    border-radius: 8px;
+    border-radius: 12px;
+    border: 2px solid var(--soft-orange);
 }
 
 .plans-card h3 {
@@ -492,14 +495,40 @@ hr {
     margin-bottom: 20px;
 }
 
-.plans-cards--container button {
+.plans-card--button-orange {
     width: 150px;
     height: 50px;
+    margin-bottom: 12px;
     border-radius: 10px;
     border: 3px solid var(--bitcoin-orange);
-    background-color: var(--off-white);
+    box-shadow: 10px 5px 5px var(--bitcoin-orange);
+    background-color: #faf8f7;
     font-weight: 700;
     font-size: 1.4rem;
+}
+
+.plans-card--button-blue {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border: 3px solid var(--secondary-blue);
+    background-color: #faf8f7;
+    box-shadow: 10px 5px 5px var(--secondary-blue);
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.plans-card--button-golden {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border: 3px solid #ffe600;
+    background-color: #faf8f7;
+    font-weight: 700;
+    font-size: 1.4rem;
+    box-shadow: 10px 5px 5px #ffe600;
 }
 
 .plans-card--button p {
